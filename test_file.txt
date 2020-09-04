@@ -1,3 +1,0 @@
-welcome to devops taining
- git test file
-  hello

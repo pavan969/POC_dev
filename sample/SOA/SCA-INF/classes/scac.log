@@ -1,0 +1,108 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+2020-09-02 20:53:39.371/3.352 Oracle Coherence 12.2.1.4.0 <Info> (thread=main, member=n/a): Loaded operational configuration from "jar:file:/C:/12cMDW/coherence/lib/coherence.jar!/tangosol-coherence.xml"
+2020-09-02 20:53:39.409/3.391 Oracle Coherence 12.2.1.4.0 <Info> (thread=main, member=n/a): Loaded operational overrides from "jar:file:/C:/12cMDW/coherence/lib/coherence.jar!/tangosol-coherence-override-dev.xml"
+2020-09-02 20:53:39.410/3.392 Oracle Coherence 12.2.1.4.0 <Info> (thread=main, member=n/a): Optional configuration override "/tangosol-coherence-override.xml" is not specified
+2020-09-02 20:53:39.415/3.396 Oracle Coherence 12.2.1.4.0 <Info> (thread=main, member=n/a): Optional configuration override "cache-factory-config.xml" is not specified
+2020-09-02 20:53:39.416/3.398 Oracle Coherence 12.2.1.4.0 <Info> (thread=main, member=n/a): Optional configuration override "cache-factory-builder-config.xml" is not specified
+2020-09-02 20:53:39.417/3.399 Oracle Coherence 12.2.1.4.0 <Info> (thread=main, member=n/a): Optional configuration override "/custom-mbeans.xml" is not specified
+
+Oracle Coherence Version 12.2.1.4.0 Build 74888
+ Grid Edition: Development mode
+Copyright (c) 2000, 2019, Oracle and/or its affiliates. All rights reserved.
+
+2020-09-02 20:53:40.957/4.938 Oracle Coherence GE 12.2.1.4.0 <Info> (thread=main, member=n/a): The cluster name has not been configured, a value of "ekumkpa's cluster" has been automatically generated
+2020-09-02 20:53:42.320/6.301 Oracle Coherence GE 12.2.1.4.0 <Info> (thread=main, member=n/a): Created cache factory com.tangosol.net.ExtensibleConfigurableCacheFactory
+Sep 02, 2020 8:53:43 PM oracle.soa.scac.ValidateComposite loadWSDLs
+WARNING: Validating WSDLs from WSDLManager....  with option UseSoaInfraMds:false
+Sep 02, 2020 8:53:43 PM oracle.fabric.common.wsdl.SchemaManager isIncrementalBuildSupported
+INFO: XMLSchema incremental build enabled.
+Sep 02, 2020 8:53:43 PM com.collaxa.cube.CubeLogger info
+INFO: validating "BPEL/sample.bpel" ...
+Sep 02, 2020 8:53:44 PM com.collaxa.cube.CubeLogger error
+SEVERE: SchemaToXML:
+java.lang.NullPointerException
+	at com.collaxa.cube.xml.xsd.SchemaToXML.purgeUnusedNodes(SchemaToXML.java:201)
+	at com.collaxa.cube.xml.xsd.SchemaToXML.generateXMLElement(SchemaToXML.java:451)
+	at com.collaxa.cube.xml.xsd.SchemaToXML.generateXML(SchemaToXML.java:381)
+	at com.collaxa.cube.lang.compiler.BPELComponentCompilationModel.generateXML(BPELComponentCompilationModel.java:313)
+	at com.collaxa.cube.lang.compiler.util.CXBPELVariableInitializer.initMessageVariable(CXBPELVariableInitializer.java:368)
+	at com.collaxa.cube.lang.compiler.util.CXBPELVariableInitializer.genMessageVariable(CXBPELVariableInitializer.java:209)
+	at com.collaxa.cube.lang.compiler.util.CXBPELVariableInitializer.codegen(CXBPELVariableInitializer.java:96)
+	at com.collaxa.cube.lang.compiler.template.CubeProcessGenerator.generateInitRootScope(CubeProcessGenerator.java:723)
+	at com.collaxa.cube.lang.compiler.template.CubeProcessGenerator.code(CubeProcessGenerator.java:471)
+	at com.collaxa.cube.lang.compiler.template.CubeProcessGenerator.generate(CubeProcessGenerator.java:140)
+	at com.collaxa.cube.lang.compiler.BPEL1Processor.transform(BPEL1Processor.java:270)
+	at com.collaxa.cube.lang.compiler.BPEL1Processor.process(BPEL1Processor.java:170)
+	at oracle.fabric.bpel.bpelc.BPELComponentValidator.validate(BPELComponentValidator.java:87)
+	at oracle.soa.scac.ValidateComposite.validateComponentTypeServicesReferences(ValidateComposite.java:1175)
+	at oracle.soa.scac.ValidateComposite.doValidation0(ValidateComposite.java:607)
+	at oracle.soa.scac.ValidateComposite.doValidation(ValidateComposite.java:586)
+	at oracle.soa.scac.ValidateComposite.run0(ValidateComposite.java:234)
+	at oracle.soa.scac.ValidateComposite.run(ValidateComposite.java:215)
+	at oracle.soa.scac.ValidateComposite.main(ValidateComposite.java:207)
+
+Sep 02, 2020 8:53:44 PM com.collaxa.cube.CubeLogger error
+SEVERE: SchemaToXML: Assuming invocation through jdev; ignoring NPE & proceeding with bGenerateOptionaXMLElement = false
+Sep 02, 2020 8:53:44 PM com.collaxa.cube.CubeLogger error
+SEVERE: SchemaToXML:
+java.lang.NullPointerException
+	at com.collaxa.cube.xml.xsd.SchemaToXML.purgeUnusedNodes(SchemaToXML.java:201)
+	at com.collaxa.cube.xml.xsd.SchemaToXML.generateXMLElement(SchemaToXML.java:451)
+	at com.collaxa.cube.xml.xsd.SchemaToXML.generateXML(SchemaToXML.java:381)
+	at com.collaxa.cube.lang.compiler.BPELComponentCompilationModel.generateXML(BPELComponentCompilationModel.java:313)
+	at com.collaxa.cube.lang.compiler.util.CXBPELVariableInitializer.initMessageVariable(CXBPELVariableInitializer.java:368)
+	at com.collaxa.cube.lang.compiler.util.CXBPELVariableInitializer.genMessageVariable(CXBPELVariableInitializer.java:209)
+	at com.collaxa.cube.lang.compiler.util.CXBPELVariableInitializer.codegen(CXBPELVariableInitializer.java:96)
+	at com.collaxa.cube.lang.compiler.template.CubeProcessGenerator.generateInitRootScope(CubeProcessGenerator.java:723)
+	at com.collaxa.cube.lang.compiler.template.CubeProcessGenerator.code(CubeProcessGenerator.java:471)
+	at com.collaxa.cube.lang.compiler.template.CubeProcessGenerator.generate(CubeProcessGenerator.java:140)
+	at com.collaxa.cube.lang.compiler.BPEL1Processor.transform(BPEL1Processor.java:270)
+	at com.collaxa.cube.lang.compiler.BPEL1Processor.process(BPEL1Processor.java:170)
+	at oracle.fabric.bpel.bpelc.BPELComponentValidator.validate(BPELComponentValidator.java:87)
+	at oracle.soa.scac.ValidateComposite.validateComponentTypeServicesReferences(ValidateComposite.java:1175)
+	at oracle.soa.scac.ValidateComposite.doValidation0(ValidateComposite.java:607)
+	at oracle.soa.scac.ValidateComposite.doValidation(ValidateComposite.java:586)
+	at oracle.soa.scac.ValidateComposite.run0(ValidateComposite.java:234)
+	at oracle.soa.scac.ValidateComposite.run(ValidateComposite.java:215)
+	at oracle.soa.scac.ValidateComposite.main(ValidateComposite.java:207)
+
+Sep 02, 2020 8:53:44 PM com.collaxa.cube.CubeLogger error
+SEVERE: SchemaToXML: Assuming invocation through jdev; ignoring NPE & proceeding with bGenerateOptionaXMLElement = false
+Sep 02, 2020 8:53:44 PM com.collaxa.cube.CubeLogger error
+SEVERE: SchemaToXML:
+java.lang.NullPointerException
+	at com.collaxa.cube.xml.xsd.SchemaToXML.purgeUnusedNodes(SchemaToXML.java:201)
+	at com.collaxa.cube.xml.xsd.SchemaToXML.purgeUnusedNodes(SchemaToXML.java:271)
+	at com.collaxa.cube.xml.xsd.SchemaToXML.generateXMLElement(SchemaToXML.java:451)
+	at com.collaxa.cube.xml.xsd.SchemaToXML.generateXML(SchemaToXML.java:381)
+	at com.collaxa.cube.lang.compiler.BPELComponentCompilationModel.generateXML(BPELComponentCompilationModel.java:313)
+	at com.collaxa.cube.lang.compiler.util.CXBPELVariableInitializer.initMessageVariable(CXBPELVariableInitializer.java:368)
+	at com.collaxa.cube.lang.compiler.util.CXBPELVariableInitializer.genMessageVariable(CXBPELVariableInitializer.java:209)
+	at com.collaxa.cube.lang.compiler.util.CXBPELVariableInitializer.codegen(CXBPELVariableInitializer.java:96)
+	at com.collaxa.cube.lang.compiler.template.CubeProcessGenerator.generateInitRootScope(CubeProcessGenerator.java:723)
+	at com.collaxa.cube.lang.compiler.template.CubeProcessGenerator.code(CubeProcessGenerator.java:471)
+	at com.collaxa.cube.lang.compiler.template.CubeProcessGenerator.generate(CubeProcessGenerator.java:140)
+	at com.collaxa.cube.lang.compiler.BPEL1Processor.transform(BPEL1Processor.java:270)
+	at com.collaxa.cube.lang.compiler.BPEL1Processor.process(BPEL1Processor.java:170)
+	at oracle.fabric.bpel.bpelc.BPELComponentValidator.validate(BPELComponentValidator.java:87)
+	at oracle.soa.scac.ValidateComposite.validateComponentTypeServicesReferences(ValidateComposite.java:1175)
+	at oracle.soa.scac.ValidateComposite.doValidation0(ValidateComposite.java:607)
+	at oracle.soa.scac.ValidateComposite.doValidation(ValidateComposite.java:586)
+	at oracle.soa.scac.ValidateComposite.run0(ValidateComposite.java:234)
+	at oracle.soa.scac.ValidateComposite.run(ValidateComposite.java:215)
+	at oracle.soa.scac.ValidateComposite.main(ValidateComposite.java:207)
+
+Sep 02, 2020 8:53:44 PM com.collaxa.cube.CubeLogger error
+SEVERE: SchemaToXML: Assuming invocation through jdev; ignoring NPE & proceeding with bGenerateOptionaXMLElement = false
+Sep 02, 2020 8:53:44 PM com.collaxa.cube.CubeLogger info
+INFO: Composed "sample" in 202.2 milliseconds [nodes 6=0+6, 29.7 nodes/sec]
+Sep 02, 2020 8:53:48 PM com.collaxa.cube.CubeLogger info
+INFO: Compiled "sample" in 3.570 seconds
+Sep 02, 2020 8:53:48 PM com.collaxa.cube.CubeLogger info
+INFO: Gathered 4 files in 2.1 milliseconds
+Sep 02, 2020 8:53:48 PM com.collaxa.cube.CubeLogger info
+INFO: Packaged "sample" in 18.6 milliseconds
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=32m; support was removed in 8.0
+Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=256m; support was removed in 8.0
